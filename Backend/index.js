@@ -7,7 +7,7 @@ const cors = require('cors');
 const app = express();
 app.use(cors());
 // Definir el puerto para el servidor
-const PORT = 3030;
+const PORT = 8080;
 
 // Ruta principal
 app.get('/', (req, res) => {
