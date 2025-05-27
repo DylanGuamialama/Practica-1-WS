@@ -8,6 +8,6 @@ RUN npm i
 
 COPY index.js ./
 
-EXPOSE 8080
+EXPOSE 3000
 
 CMD [ "node," "index.js"]
