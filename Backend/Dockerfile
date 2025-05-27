@@ -2,11 +2,11 @@ from node:20.10.0-alpine3.18
 
 WORKDIR /app
 
-COPY package.json .
+COPY package.json ./
 
 RUN npm i
 
-COPY index.js .
+COPY index.js ./
 
 EXPOSE 8080
 
