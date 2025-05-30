@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 // Definir el puerto para el servidor
-const PORT = 3000;
+const PORT = 8080;
 
 // Middleware para parsear JSON y URL‑encoded bodies
 app.use(express.json());                           
